@@ -1,0 +1,215 @@
+html {
+    min-height: 100%;
+}
+body {
+    margin-top: -10px;
+    min-height: 100%;
+    overflow: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.resume a:link, a:visited {
+    background-color: #5c5858;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}  
+.resume a:hover, a:active {
+    background-color: black;
+}
+li {
+    font-size: 20px;
+    display: inline;
+    float: right;
+    margin: 12px;
+}
+mark {
+    background-color: transparent;
+    font-size: 20px;
+    color: #5c5858;
+}
+.title {
+    float: left;
+    font-size: 20px;
+}
+.nav {
+    width: 100%; 
+    height: 50px;
+    border-radius: 15px;
+    color: azure;
+    background-color: black;
+}
+.content {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    margin: 30px auto 100px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 70%;
+        height: 100vh;
+        justify-content: center;
+        text-align: center;
+        font-size: 3em;
+        margin: 30px auto 100px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 20px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-radius: 20px;
+}
+.socialicons li {
+    position: relative;
+    top: 0px;
+    display: inline;
+    padding: 1px;
+    font-size: 0px;
+    color: white;
+}
+.socialicons .icon {
+    bottom: 10px;
+    right: 2px;
+    margin: 0 3px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: visible;
+}
+.desc {
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px auto 100px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media only screen and (max-width: 600px) {
+    .desc {
+        width: 70%;
+        height: 100vh;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 30px auto 100px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 20px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
+.work-desc {
+    width: 50%;
+    min-height: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px auto 100px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media only screen and (max-width: 600px) {
+    .work-desc {
+        width: 70%;
+        min-height: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 30px auto 100px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 20px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
+.info {
+    width: 50%;
+    min-height: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px auto 100px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media only screen and (max-width: 600px) {
+    .info {
+        width: 70%;
+        min-height: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 30px auto 100px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 20px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+}
+input[type=text], [type=email], textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #5DADE2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
