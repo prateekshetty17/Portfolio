@@ -45,6 +45,9 @@ mark {
     color: azure;
     background-color: black;
 }
+.nav .ic {
+    margin: 7px;
+}
 .content {
     width: 50%;
     min-height: 100%;
