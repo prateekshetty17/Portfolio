@@ -10,6 +10,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       referrerpolicy="no-referrer"
     />
+    <style>
+      img{
+        width: 250px;
+        height: 250px;
+        border-radius: 12px;
+        transition: 200ms;
+      }
+      img:hover{
+        border-radius: 0px;
+        transform: scale(1.2);
+      }
+    </style>
     <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
@@ -76,24 +88,9 @@
       </ul>
     </div>
     <div class="content_images">
-      <div class="masonry">
-        <div class="grid">
-          <img src="https://source.unsplash.com/random/1">
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="grid">
-          <img src="https://source.unsplash.com/random/2">
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" href="#"></a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h5 id="memeBtn" onclick="fetchMemes()">#Memes</h5>
+      <script src="app.js"></script>
+      <script src="colorChange.js"></script>
     </div>
     <footer>
       <div class="socialicons">
@@ -140,6 +137,7 @@
             ></a>
           </li>
         </ul>
+        <span style="font-size: 20px; float: left; margin-left: 10px;">(Click On #Memes)</span>
       </div>
     </footer>
   </body>

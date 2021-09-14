@@ -50,6 +50,13 @@ mark {
 .nav .ic {
   margin: 7px;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav .ic {
+    margin: 7px 2px;
+  }
+}
+
 .content {
   width: 50%;
   min-height: 100%;
@@ -250,45 +257,44 @@ input[type="submit"] {
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
 }
-.masonry .grid {
-  margin-bottom: 16px;
-  position: relative;
+#memeBtn{
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 250ms;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin-left: 5%;
+  background: #fff;
+  color: #000;
 }
-.masonry .grid::before {
-  border-radius: 5px;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+#memeBtn:hover{
+  transform: scale(1.2);
 }
-.masonry .grid img {
-  width: 100%;
-  border-radius: 5px;
-}
-.masonry .grid__body {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  padding: 30px 30px;
-  color: #fff;
+#memes{
   display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.masonry {
-  columns: 2;
-  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  padding: 10px;
   margin-left: 10px;
-  margin-right: 10px;
-  column-gap: 16px;
 }
-@media (max-width: 992px) {
-  .masonry {
-    columns: 1;
-  }
+#memes div{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  height: auto;
+  width: 250px;
+}
+#memes div h4{
+  padding: 5px;
+  text-align: center;
+  background: none;
+  color: #111;
+  border-radius: 8px;
+  margin: 0;
 }
