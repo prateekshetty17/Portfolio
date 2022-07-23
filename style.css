@@ -58,17 +58,20 @@ mark {
   background-color: #000;
 }
 .nav .ic {
-  margin: 7px;
+  margin: 7px 2px;
 }
 
 @media only screen and (max-width: 600px) {
   .nav .ic {
-    margin: 7px 2px;
+    margin: 7px 0px;
+  }
+  .nav .ic .textNav {
+    display: none;
   }
 }
 
 .content {
-  width: 50%;
+  max-width: 70%;
   min-height: 100%;
   justify-content: center;
   text-align: center;
@@ -81,9 +84,9 @@ mark {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .content {
-    width: 90%;
+    max-width: 90%;
     min-height: 100%;
     justify-content: center;
     text-align: center;
@@ -128,11 +131,11 @@ footer {
   overflow: visible;
 }
 .desc {
-  width: 50%;
+  max-width: 70%;
   min-height: 100%;
   justify-content: center;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 30px auto 100px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -141,13 +144,13 @@ footer {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .desc {
-    width: 90%;
+    max-width: 90%;
     min-height: 100%;
     justify-content: center;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 30px auto 100px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -158,11 +161,11 @@ footer {
   }
 }
 .work-desc {
-  width: 50%;
+  max-width: 70%;
   min-height: 100%;
   justify-content: center;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 30px auto 100px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -171,13 +174,13 @@ footer {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .work-desc {
-    width: 90%;
+    max-width: 90%;
     min-height: 100%;
     justify-content: center;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 30px auto 100px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
